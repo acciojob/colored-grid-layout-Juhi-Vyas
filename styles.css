@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+
+.layout{
+	display: grid;
+	grid: repeat(5, 1fr) / repeat(4, 1fr)
+}
+
+.grid{
+	background-color: green;
+	color: white;
+	font-size: 4vw;
+}
+
+#grid1{
+	grid-column: 1 / span 4
+}
+
+#grid2{
+	grid-row: 2 / span 4
+}
+
+#grid4{
+	grid-column: 3 / span 2
+}
+
+#grid5{
+	grid-column: 2 / span 2
+}
+
+#grid10{
+	grid-column: 2 / span 3
+}
